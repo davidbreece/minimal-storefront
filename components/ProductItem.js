@@ -10,6 +10,8 @@ export default function ProductItem({ product }) {
           <Image
             layout="responsive"
             src={product.media[0].url}
+            width={100}
+            height={120}
             alt={product.name}
             className="rounded shadow"
           />
