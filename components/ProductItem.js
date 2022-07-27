@@ -8,7 +8,7 @@ export default function ProductItem({ product }) {
       <Link href={`/product/${product.slug}`}>
         <a>
           <Image
-            layout="fill"
+            layout="responsive"
             src={product.media[0].url}
             alt={product.name}
             className="rounded shadow"
